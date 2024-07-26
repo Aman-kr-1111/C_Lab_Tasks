@@ -1,0 +1,26 @@
+1) write a  c program to reverse a two digit number without using loop ?
+input:	13
+output: 31
+
+**************************************
+
+2) write a  c program to find the previous multiple of 100 of a given three digit ?
+input:	234
+output: 200
+
+**************************************
+
+3) write a  c program to add each digit of a given two digit number?
+input:	67
+output: 13
+
+**************************************
+
+4) write a  c program to find the next multiple of 10 given two digit number if the given number 's last digit less than 5 then find the previous multipole of 10 and if the given number's last digit is greater than or equal to 5 then find the next multiple of 10 ?
+input:	24
+output: 20
+
+input:	57
+output: 60
+
+**************************************

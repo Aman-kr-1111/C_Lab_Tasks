@@ -1,0 +1,408 @@
+================ MCQ  =============
+------------
+1)What will be the output of the following code?
+
+int x = 10;
+if (x > 20==false) {
+    printf("x is less than 20");
+} else {
+   printf("x is 20 or more");
+}
+
+a) x is less than 20  
+b) x is 20 or more
+c) Compilation error  //correct
+d) Runtime error
+
+
+----------------
+2)What will be the output of the following code?
+
+
+int number = 15;
+if (number % 2 != 0) {
+    printf("Even number"); 
+} else {
+    printf("Odd number");
+}
+
+a) Even number  //correct
+b) Odd number
+c) Compilation error
+d) No output
+
+-----------------
+3)What will be the output of the following C code?
+
+    #include <stdio.h>
+    void main()
+    {
+        int k = 0;
+        for (k=0)
+            printf("Hello");
+    }
+a) Compile time error //correct
+b) Hello
+c) Nothing  
+d) Varies
+
+
+
+
+----------------
+4)What will be the output of the following code?
+
+int x = 10;
+if (x == 10)
+    if (x % 2 == 0)
+        printf("x is 10 and even");
+    else
+        printf("x is 10 and odd");
+else
+    printf("x is not 10");
+a) x is 10 and even   //correct
+b) x is 10 and odd
+c) x is not 10
+d) Compilation error
+
+
+
+
+----------------
+5)What will be the output of the following code?
+
+int x = 7;
+if (x < 5); {
+    printf("x is greater than 5");
+}
+a) x is greater than 5  //correct
+b) No output   
+c) Compilation error  
+d) Runtime error
+
+
+
+----------------
+6)What will be the output of the following code?
+int x=5;
+int y = 10;
+if ((x|y)>15) {
+    printf("y is less than 15");
+} else {
+    printf("y is 15 or more"); 
+}
+a) y is 15 or more  //correct
+b) y is less than 15   
+c) Compilation error 
+d) Runtime error
+
+
+
+
+----------------
+7)What will be the output of the following code?
+
+int a = 20;
+if (a =a%10) {
+    printf("a is 20");
+} else {
+    printf("a is not 20");  
+}
+a) a is 20
+b) a is not 20  //correct
+c) Compilation error
+d) Runtime error
+
+
+
+----------------
+8)What will be the output of the following code?
+
+int value = 15;
+if (value < 10) 
+    printf("Greater than 10");
+ else if (value > 20) 
+    printf("Less than 20");
+    printf("Equals 30");
+
+a) Greater than 10
+b) Less than 20
+c) Equals 30  //correct
+d) No output
+
+
+----------------
+9)What will be the output of the following C code?
+
+    #include <stdio.h>
+    int main()
+    {
+        int a = 1;
+        if (a--)
+            printf("True");
+        if (++a)
+            printf("False");
+    }
+a) True   
+b) False
+c) TrueFalse  //correct
+d) No Output
+
+
+
+----------------
+10)What will be the output of the following C code?
+
+    #include <stdio.h>
+    int main()
+    {
+        int a = 1;
+        if (a)
+            printf("All is Well ");
+            printf("I am Well\n");
+        else
+            printf("I am not a River\n");
+    }
+a) Output will be All is Well I am Well   
+b) Output will be I am Well I am not a River
+c) Output will be I am Well
+d) Compile time errors during compilation //correct
+
+
+
+
+----------------
+11)What is the output of the C Program.?
+int main()
+{
+    if(-5)
+    {
+        printf("Germany\n");
+    }
+    if(5)
+    {
+        printf("Texas\n");
+    }
+    printf("ZING");
+
+    return 0;
+}
+A) ZING
+B) Texas
+ZING
+C) Germany    //correct
+Texas
+ZING
+D) Compiler error as a number can not be put as condition inside IF.
+
+
+
+
+----------------
+12)What is the output of C Program.?
+int main()
+{
+    int a=9;
+    if(a==9);
+    {
+        printf("Ostrich\n");
+    }
+    else
+    {
+        printf("Eggs\n");
+    }
+    
+    printf("White");
+
+    return 0;
+}
+
+A) White
+B) Ostrich   
+White
+C) Ostrich
+Eggs
+White
+D) Compiler Error  //correct
+
+
+
+
+
+----------------
+13)What is the output of C Program.?
+int main()
+{
+    int a=5, b=8;
+    
+    if( a==5 && (b     ) )
+    {
+        printf("Gorilla Glass=");
+    }
+    printf("%d %d", a, b);
+
+    return 0;
+}
+
+A) 5 8
+B) 5 9
+C) Gorilla Glass=5 8   //correct
+D) Gorilla Glass=5 9
+
+
+
+
+
+
+----------------
+14).What will be the value of result after executing the following code?
+#include<stdio.h>
+int main(){
+int num = 25;
+int result;
+if (!(num % 2 != 0)) {
+    result = num * 2;
+} else {
+    result = num * 3;
+}
+}
+a) 50
+b) 75  //correct
+c) 30
+d) 45
+
+
+
+
+
+
+----------------
+15).What will be the output of the following code?
+
+int x = 5, y = 10;
+if (x < 10 && y > 5) {
+    printf("Condition satisfied\n");
+} else {
+    printf("Condition not satisfied\n");
+}
+a) Condition satisfied  //correct
+b) Condition not satisfied
+c) Compilation Error
+d) Runtime Error
+
+-----------------
+Q16)
+Guess the output ?
+
+include
+int main()
+{
+int k, num = 100;
+k = (num > 50 ? (num <= 10 ? 100 : 200): 500);
+printf(“%d\n”, num);
+return 0;
+}
+
+A.300
+B.500
+C.100   //correct
+D.200   
+
+Ques -17
+-------------
+What will be the output of the following C code?
+
+#include <stdio.h>
+void main()
+{
+    int i = 0;
+    if (i == 0)
+    {
+        goto label;
+    }
+    label: printf("Hello");
+}
+
+
+A.Nothing
+B.Error
+C.Infinite Hello
+D.Hello   //correct
+
+Ques - 18
+-------------
+What will be the output of the following C code?
+
+#include <stdio.h>
+void main()
+{
+    int i = 5, k;
+    if (i == 0)
+        goto label;
+        label: printf("%d", i);
+        printf("Hey");
+}
+
+
+A.5
+B.Hey  
+C.5 Hey //correct
+D.Nothing
+
+Ques - 19
+-------------What is the output of the C Program.?
+int main()
+{
+int a=0;
+a = 5>2 ? printf(“4”): 3;
+printf(“%d”,a);
+
+return 0;
+}
+
+
+
+A.compiler error
+B.14
+C.41  //correct
+D.0
+
+Ques - 20
+-------------
+What is the output of C Program.?
+int main()
+{
+int a=0, b;
+a = (5>2) ? b=6: b=8;
+printf(“%d %d”,a, b);
+
+return 0;
+}
+
+
+A.6 6
+B.0 6
+C.0 8
+D.compiler error   //correct
+--------------------------
+Que 21:-
+
+What is the output of this program?
+
+int main()
+{
+int a = 5;
+if (a == 6); a = 0;
+if (a == 5)
+a++;
+else a += 2;
+printf(“%d”, a);
+return 0;
+}
+
+A.6
+B.8
+C.5
+D.2   //correct
+
+
