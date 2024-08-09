@@ -8,8 +8,7 @@ int main()
   store_num = num;
   for (int i = 2; i <= num / 2; i++)
   {
-    int flag = 1;
-    int sum1 = i;
+    int flag = 1, sum1 = i;
     for (int j = 2; j <= sum1 / 2; j++)
     {
       if (sum1 % j == 0)
