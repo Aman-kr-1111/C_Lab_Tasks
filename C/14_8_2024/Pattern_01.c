@@ -11,14 +11,7 @@ int main()
   {
     for (int j = 1; j <= col; j++)
     {
-      if (i % 2 == 0)
-      {
-        printf("%d ", --num);
-      }
-      else
-      {
-        printf("%d ", num++);
-      }
+      printf("%3d ", i % 2 == 0 ? --num : num++);
     }
     num += col;
     printf("%c", 10);

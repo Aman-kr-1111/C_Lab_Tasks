@@ -1,23 +1,19 @@
 #include <stdio.h>
 int main()
 {
-  int row, num = 1;
+  int row;
   printf("Enter nuber of row : ");
   scanf("%d", &row);
 
   for (int i = 1; i <= row; i++)
   {
-    for (int j = i; j < row; j++)
+    int num = 1;
+    for (int j = 1; j <= row; j++)
     {
-      printf("     ");
+      j <= row - i ? printf("    ") : printf("%4d", i * num++);
     }
-
-    for (int k = 1; k <= i; k++)
-    {
-      printf("%5d", i * k);
-    }
-
     printf("%c", 10);
   }
+
   return 0;
 }
