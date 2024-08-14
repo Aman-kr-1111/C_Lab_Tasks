@@ -7,12 +7,10 @@ int main()
 
   for (int i = 1; i <= row; i++)
   {
-
     for (int j = i; j >= 1; j--)
     {
       printf("%c ", 64 + j);
     }
-
     printf("%c", 10);
   }
 
