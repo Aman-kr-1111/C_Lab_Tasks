@@ -5,7 +5,7 @@ int main()
   printf("Enter string : ");
   scanf("%[^\n]s", &str);
 
-  if (str[0] >= 'a' && str[0] <= 'z')
+  if (str[0] >= 'a' && str[0] <= 'z') // hruthik
   {
     str[0] -= 32;
   }
